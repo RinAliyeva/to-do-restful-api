@@ -36,7 +36,7 @@ def read_all_tasks(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user)
 ):
-    if current_user.username != "admin":  # Only admin can see all tasks
+    if current_user.username != "admin":
         raise HTTPException(status_code=403, detail="Only admin can access all tasks")
     tasks = get_tasks(db, skip=skip, limit=limit)
     return tasks

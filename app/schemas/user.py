@@ -11,7 +11,7 @@ class UserCreate(UserBase):
 
 class User(UserBase):
     id: int
-    model_config = ConfigDict(from_attributes=True)  # Modern config
+    model_config = ConfigDict(from_attributes=True)
 
 class UserInDB(User):
     hashed_password: str
