@@ -41,7 +41,7 @@ To-Do List App is deployed and accessible using Swagger UI.
 Create **admin** user to have access to all features.
 <img width="1417" height="591" alt="create_admin" src="https://github.com/user-attachments/assets/53164cf7-268e-48aa-9904-dd8b90a016b7" />
 
-After authorization feel free to **create**, **read**, **update**, **delete**, and mark tasks **as completed** and many other functions.
+After authorization feel free to **create**, **read**, **update**, **delete**, and mark tasks **as completed** and many other features.
 <img width="1413" height="596" alt="crud" src="https://github.com/user-attachments/assets/3dbedf66-7726-4938-8b70-34e2c455d83a" />
 
 <img width="1132" height="789" alt="readtask" src="https://github.com/user-attachments/assets/2af66271-782f-4a02-a2c1-bfa626973710" />
