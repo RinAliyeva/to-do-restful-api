@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
-      POSTGRES_DB: todo_db
+      POSTGRES_DB: to-do-restful-api
     ports:
       - "5432:5432"
     volumes:
@@ -20,7 +20,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      DATABASE_URL: postgresql://postgres:admin@db:5432/todo_db
+      DATABASE_URL: postgresql://postgres:admin@db:5432/to-do-restful-api
       SECRET_KEY: your-secret-key
       ACCESS_TOKEN_EXPIRE_MINUTES: 30
     volumes:
